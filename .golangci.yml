@@ -1,0 +1,23 @@
+run:
+  timeout: 3m
+linters:
+  enable:
+    - errcheck
+    - gosimple
+    - govet
+    - staticcheck
+    - gofmt
+#    - golines
+
+  disable:
+    - funlen # Example: Disable a specific linter
+
+gofmt:
+golines:
+  # Configure golines for spacing/line length adjustments
+  max_length: 10  # Max length of a line before it breaks
+  min_length: 5   # Optional minimum line length
+  # This enables reformatting with respect to the max line length.
+  # If `true`, golines will reformat code to fit the desired line length.
+  # It may add or remove spaces.
+  enforce_multiline: true  # Split long lines into multiple lines

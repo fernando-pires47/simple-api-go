@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Attach to Air",
+        "type": "go",
+        "request": "attach",
+        "mode": "remote",
+        "remotePath": "",
+        "port": 2345,
+        "host": "127.0.0.1",
+        "showLog": true,
+        "dlvFlags": ["--headless", "--listen=:2345", "--api-version=2", "--accept-multiclient"],
+        "postDebugTask": "kill-delve"
+      }
+    ]
+  }  

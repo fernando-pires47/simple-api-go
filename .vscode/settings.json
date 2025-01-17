@@ -1,0 +1,9 @@
+{
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+      "--fast" // Optional: Enable fast mode
+    ],
+    "go.toolsManagement.autoUpdate": true, // Ensure tools are kept up to date
+    "go.lintOnSave": "file" // Lint only the current file when saved
+  }
+  

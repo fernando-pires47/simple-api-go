@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "kill-delve",
+      "type": "shell",
+      "command": "pkill dlv",
+      "problemMatcher": [],
+      "windows": {
+        "command": "taskkill /F /IM dlv.exe"
+      }
+    }
+  ]
+}
