@@ -1,5 +1,5 @@
 # Simple API GO
-Testing http API in GO
+Testing HTTP API in GOLANG
 
 #### Dependencies
 * air - auto reload
